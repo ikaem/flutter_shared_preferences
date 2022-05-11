@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_shared_preferences/animations/animations_home_screen.dart';
+import 'package:flutter_shared_preferences/animations/shape_animation.dart';
 import 'package:flutter_shared_preferences/countdown/countdown_home_page.dart';
+import 'package:flutter_shared_preferences/creating_packages/package_home_screen.dart';
+import 'package:flutter_shared_preferences/google_map/google_map_home_screen.dart';
 import 'package:flutter_shared_preferences/stream-builder/stream_home_page.dart';
 // import 'package:flutter_shared_preferences/stream_home_page.dart';
 
@@ -24,6 +28,10 @@ class MyApp extends StatelessWidget {
         //   key: Key("Home page"),
         // )
 
-        home: CountdownHomePage());
+        // home: CountdownHomePage())
+        // home: PackageHomeScreen()
+        // home: GoogleMapHomeScreen()
+        // home: AnimationsHomeScreen()
+        home: ShapeAnimation());
   }
 }
