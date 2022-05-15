@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_shared_preferences/animated_list/animated_list_screen.dart';
 import 'package:flutter_shared_preferences/animations/animations_home_screen.dart';
+import 'package:flutter_shared_preferences/animations/list_screen.dart';
 import 'package:flutter_shared_preferences/animations/shape_animation.dart';
 import 'package:flutter_shared_preferences/countdown/countdown_home_page.dart';
 import 'package:flutter_shared_preferences/creating_packages/package_home_screen.dart';
+import 'package:flutter_shared_preferences/dismissable/dimissible_screen.dart';
 import 'package:flutter_shared_preferences/google_map/google_map_home_screen.dart';
+import 'package:flutter_shared_preferences/premade-transitions/premade_transitions_screen.dart';
 import 'package:flutter_shared_preferences/stream-builder/stream_home_page.dart';
 // import 'package:flutter_shared_preferences/stream_home_page.dart';
 
@@ -32,6 +36,10 @@ class MyApp extends StatelessWidget {
         // home: PackageHomeScreen()
         // home: GoogleMapHomeScreen()
         // home: AnimationsHomeScreen()
-        home: ShapeAnimation());
+        // home: ShapeAnimation()
+        // home: ListScreen(),
+        // home: PremadeTransitionsScreen()
+        // home: AnimatedListScreen()
+        home: DismissibleScreen());
   }
 }

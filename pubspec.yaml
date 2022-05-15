@@ -37,6 +37,7 @@ dependencies:
   http: ^0.13.4
   google_maps_flutter: ^2.1.4
   location: ^4.3.0
+  animations: ^2.0.2
   area: 
     # path: packages/area
     git: https://github.com/ikaem/flutter-area-oackage.git
